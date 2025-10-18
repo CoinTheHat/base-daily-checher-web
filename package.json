@@ -15,4 +15,7 @@
     "@tanstack/react-query": "5.51.23",
     "@coinbase/onchainkit": "0.20.2"
   },
-  "overr
+  "overrides": {
+    "viem": "2.17.6"
+  }
+}
