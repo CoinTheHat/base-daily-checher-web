@@ -14,8 +14,5 @@
     "wagmi": "2.12.7",
     "@tanstack/react-query": "5.51.23",
     "@coinbase/onchainkit": "0.20.2"
-  },
-  "overrides": {
-    "viem": "2.17.6"
   }
 }
