@@ -1,0 +1,14 @@
+{
+  "name": "base-daily-checker-web",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "viem": "2.21.16",
+    "wagmi": "2.12.7",
+    "@tanstack/react-query": "5.51.23",
+    "@coinbase/onchainkit": "0.20.2"
+  }
+}
