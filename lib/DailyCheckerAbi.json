@@ -1,0 +1,33 @@
+[
+  {
+    "type": "function",
+    "name": "viewStatus",
+    "stateMutability": "view",
+    "inputs": [{ "name": "user", "type": "address" }],
+    "outputs": [
+      {
+        "components": [
+          { "name": "lastDay", "type": "uint32" },
+          { "name": "streak", "type": "uint16" },
+          { "name": "best", "type": "uint16" }
+        ],
+        "type": "tuple"
+      },
+      { "name": "today", "type": "uint32" }
+    ]
+  },
+  {
+    "type": "function",
+    "name": "checkIn",
+    "stateMutability": "nonpayable",
+    "inputs": [],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "claimBadge",
+    "stateMutability": "nonpayable",
+    "inputs": [{ "name": "badgeId", "type": "uint256" }],
+    "outputs": []
+  }
+]
